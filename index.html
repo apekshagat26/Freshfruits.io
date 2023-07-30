@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    nav {
+        height: 10vh;
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 15px;
+        padding-right: 25px;
+    }
+
+    ul li{
+        display: inline;
+        margin-left: 20px;
+        padding: 8px;
+        border-radius: 3px;
+    }
+
+     ul li:hover{
+        background-color: rgb(244, 180, 214);
+     }
+    .main{
+        height: 75vh;
+        margin-left: 6vw;
+        margin-right: 4vw;
+        background-color: rgb(233, 120, 120);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 25px;
+    }
+
+    .fruitImg{
+        background-image: url(./assests/images/pexels-photo-6944172.jpeg);
+        height: 60vh;
+        width: 30vw;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .content{
+        height: 50vh;
+        width: 42vw;
+        padding: 2rem;
+        padding-top: 3rem;
+     }
+
+     .content p{
+        font-size: 18px;
+        margin-top: 1rem;
+     }
+
+     .content button{
+        color: white;
+        background-color: rgb(251, 56, 160);
+        border: 1px solid rgb(251, 7, 137);
+        padding: 7px;
+        border-radius: 3px;
+        margin-top: 1rem;
+        font-weight: 700;
+        box-shadow: 3px 3px 0px 3px black;
+    }
+
+    .content button:hover{
+        background-color: rgb(249, 170, 212);
+        color: black;
+    }
+
+    .bottomNote{
+        font-size: 18px;
+        margin-left: 6rem;
+        margin-top: 1rem;
+    }
+
+    .brand{
+        border: 2px solid black;
+        font-weight: 600;
+    }
+</style>
+
+<body>
+
+
+    <nav>
+        <div class="Products">
+            <ul>
+                <li class="brand">Soylent</li>
+                <li>Drink</li>
+                <li>Cafe</li>
+                <li>Powder</li>
+                <li>All Products</li>
+            </ul>
+        </div>
+        <div class="accounts">
+            <ul>
+                <li>Login</li>
+                <li>Refer</li>
+                <li>Cart(2)</li>
+            </ul>
+        </div>
+
+    </nav>
+
+      <div class="main">
+            <div class="fruitImg"></div>
+                <div class="content">
+                  <h1>Fruit is back!</h1>
+                  <p>Soylent Strawberry milk you loved as a kid- but it has 20g of protein, 20% of your daily recommended micronutrients and your mom doesn't have to make it for you.</p>
+                
+                <button>Shop now</button>
+                </div>
+            
+      </div>
+
+      <p class="bottomNote">Now two bottles to serve you! <a href="#">Click here</a> to learn more about our new bottle</p>
+        <br>
+
+      <hr>
+</body>
+
+</html>
